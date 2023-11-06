@@ -18,6 +18,10 @@ const user_controller = require('../controllers/userControllers');
 
 user_routes.post('/insert', user_controller.insert_data);
 
+user_routes.post('/delete', user_controller.delete_data);
+
+user_routes.post('/update', user_controller.update_data);
+
 
 // Get Single Data
 
